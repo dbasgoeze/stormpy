@@ -1920,7 +1920,7 @@ Every state with id offset+i is replaced by the id in replacements[i]. Afterward
 
 <dl class="py method">
 <dt id="stormpy.JaniModel.flatten_composition">
-<code class="sig-name descname">flatten_composition</code><span class="sig-paren">(</span><em class="sig-param">self: stormpy.storage.storage.JaniModel</em>, <em class="sig-param">smt_solver_factory: stormpy.utility.utility.SmtSolverFactory=&lt;stormpy.utility.utility.SmtSolverFactory object at 0x7fdc9f4562f0&gt;</em><span class="sig-paren">)</span> &#x2192; stormpy.storage.storage.JaniModel<a class="headerlink" href="#stormpy.JaniModel.flatten_composition" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">flatten_composition</code><span class="sig-paren">(</span><em class="sig-param">self: stormpy.storage.storage.JaniModel</em>, <em class="sig-param">smt_solver_factory: stormpy.utility.utility.SmtSolverFactory=&lt;stormpy.utility.utility.SmtSolverFactory object at 0x7f879e476030&gt;</em><span class="sig-paren">)</span> &#x2192; stormpy.storage.storage.JaniModel<a class="headerlink" href="#stormpy.JaniModel.flatten_composition" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -3075,6 +3075,11 @@ Every state with id offset+i is replaced by the id in replacements[i]. Afterward
 <dd></dd></dl>
 
 <dl class="py attribute">
+<dt id="stormpy.PrismModelType.POMDP">
+<code class="sig-name descname">POMDP</code><em class="property"> = PrismModelType.POMDP</em><a class="headerlink" href="#stormpy.PrismModelType.POMDP" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
 <dt id="stormpy.PrismModelType.UNDEFINED">
 <code class="sig-name descname">UNDEFINED</code><em class="property"> = PrismModelType.UNDEFINED</em><a class="headerlink" href="#stormpy.PrismModelType.UNDEFINED" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
@@ -3150,7 +3155,7 @@ Every state with id offset+i is replaced by the id in replacements[i]. Afterward
 
 <dl class="py method">
 <dt id="stormpy.PrismProgram.flatten">
-<code class="sig-name descname">flatten</code><span class="sig-paren">(</span><em class="sig-param">self: stormpy.storage.storage.PrismProgram</em>, <em class="sig-param">smt_factory: stormpy.utility.utility.SmtSolverFactory=&lt;stormpy.utility.utility.SmtSolverFactory object at 0x7fdc9f4627f0&gt;</em><span class="sig-paren">)</span> &#x2192; stormpy.storage.storage.PrismProgram<a class="headerlink" href="#stormpy.PrismProgram.flatten" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">flatten</code><span class="sig-paren">(</span><em class="sig-param">self: stormpy.storage.storage.PrismProgram</em>, <em class="sig-param">smt_factory: stormpy.utility.utility.SmtSolverFactory=&lt;stormpy.utility.utility.SmtSolverFactory object at 0x7f87a3235530&gt;</em><span class="sig-paren">)</span> &#x2192; stormpy.storage.storage.PrismProgram<a class="headerlink" href="#stormpy.PrismProgram.flatten" title="Permalink to this definition">¶</a></dt>
 <dd><p>Put program into a single module</p>
 </dd></dl>
 
@@ -3213,8 +3218,8 @@ Every state with id offset+i is replaced by the id in replacements[i]. Afterward
 </dd></dl>
 
 <dl class="py method">
-<dt id="stormpy.PrismProgram.isDeterministicModel">
-<em class="property">property </em><code class="sig-name descname">isDeterministicModel</code><a class="headerlink" href="#stormpy.PrismProgram.isDeterministicModel" title="Permalink to this definition">¶</a></dt>
+<dt id="stormpy.PrismProgram.is_deterministic_model">
+<em class="property">property </em><code class="sig-name descname">is_deterministic_model</code><a class="headerlink" href="#stormpy.PrismProgram.is_deterministic_model" title="Permalink to this definition">¶</a></dt>
 <dd><p>Does the program describe a deterministic model?</p>
 </dd></dl>
 
